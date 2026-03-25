@@ -26,13 +26,21 @@ export default function Promo() {
       </div>
 
       <h3 className="absolute top-12 right-6 text-white uppercase z-10 text-sm md:text-base lg:text-lg">
-        Анатомия возможностей
+        Рекомендации коллегам
       </h3>
 
-      <p className="absolute bottom-12 right-6 text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-5xl z-10">
-        Каждая секция — рамка для твоей истории. Формируй её, миксуй и позволь контенту
-        литься в неожиданные паттерны, заставляя листать дальше.
-      </p>
+      <div className="absolute bottom-12 left-6 right-6 z-10">
+        <p className="text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-4xl leading-tight mb-8">
+          Будьте терпеливы, замечайте прогресс каждого ребёнка и создавайте атмосферу безопасности — это основа настоящего обучения.
+        </p>
+        <div className="flex flex-wrap gap-4">
+          {["Хвалите за усилия, не за результат", "Говорите на языке ребёнка", "Движение = лучшее усвоение", "Каждый ребёнок талантлив"].map((tip) => (
+            <span key={tip} className="border border-white text-white text-xs sm:text-sm px-4 py-2 uppercase tracking-wide">
+              {tip}
+            </span>
+          ))}
+        </div>
+      </div>
     </div>
   );
 }
