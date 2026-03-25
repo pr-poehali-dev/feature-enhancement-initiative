@@ -34,7 +34,7 @@ export default function Featured() {
           </div>
           <div className="w-full lg:w-72 h-80 lg:h-96 shrink-0 overflow-hidden">
             <img
-              src="https://cdn.poehali.dev/projects/3990785c-02d8-4d0e-a663-62165f0a0c6c/files/2b0ead13-2e37-45bc-85c1-600cf3909734.jpg"
+              src="https://cdn.poehali.dev/projects/3990785c-02d8-4d0e-a663-62165f0a0c6c/bucket/defd67f9-6f3b-4f40-88db-4d13b852d06c.jpg"
               alt="Вадим Широков"
               className="w-full h-full object-cover"
             />
